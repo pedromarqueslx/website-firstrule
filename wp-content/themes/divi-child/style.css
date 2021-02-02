@@ -1,0 +1,432 @@
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      https://www.elegantthemes.com/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        3.0.40
+*/
+
+/* =Theme customization starts heree
+------------------------------------------------------- */
+
+/* :::::::::::::::::::::::: STYLING SIDE BAR MENU :::::::::::::::::::::::::::::: */
+@media screen and (max-width: 1152px) {
+.widget_nav_menu {
+  	margin-left: -20px;
+}
+.et_pb_widget ul {
+  	margin-top: 20px;
+}
+.et_pb_widget li {
+  	margin-top: -8px;
+}
+.et_pb_widget ul li {
+  	border-top: solid 1px #CECECE;
+  	padding: 9px;
+	width: 258px;
+	margin-left: 0px;
+}
+.et_pb_widget ul li:last-child {
+  	border-bottom: solid 1px #CECECE;
+}
+.et_pb_widget ul li > a:first-child::before, .et_pb_widget ul li > a:first-child::before {
+	content:">"" ";
+}
+.et_pb_widget ul li ul li > a:first-child::before, .et_pb_widget ul li ul li > a:first-child::before {
+	content:">"" ";
+}
+.et_pb_widget ul li ul li {
+	width: 248px;
+	margin-left: 0px;
+}
+.et_pb_widget ul li ul li ul li {
+	width: 238px;
+	margin-left: 0px;
+}
+.et_pb_widget ul li ul li:last-child {
+	border-bottom: solid 0px #CECECE;
+	width: 238px;
+	margin-left: 0px;
+ 	margin-bottom: -6px;
+}
+.et_pb_widget ul li ul li ul li:last-child {
+	border-bottom: solid 0px #CECECE;
+	width: 238px;
+	margin-left: 0px;
+ 	margin-bottom: -6px;
+}
+/*::::::hide the sibebar vertical line */
+.et_pb_widget_area_left, .et_pb_widget_area_right {
+	border-color: transparent;
+}
+/* ::::::::::::::::::::::: JETPACK POSTS CUSTOMIZING AFTER LATERAL MENU ::::::::::::::::::::: */
+#jetpack_display_posts_widget-2 {
+  	display: none;
+}
+#jetpack_display_posts_widget-2 .widgettitle h4 {
+	display: none;
+ }
+.jetpack-display-remote-posts {
+ 	display: none;
+}
+}
+@media screen and (min-width: 1152px) {
+.et_pb_widget ul {
+  	margin-top: 20px;
+}
+.et_pb_widget li {
+  	margin-top: -8px;
+}
+.et_pb_widget ul li {
+  	border-top: solid 1px #CECECE;
+  	padding: 9px;
+	width: 218px;
+	margin-left: 0px;
+	font-size: 95%;
+}
+.et_pb_widget ul li:last-child {
+  	border-bottom: solid 1px #CECECE;
+}
+.et_pb_widget ul li > a:first-child::before, .et_pb_widget ul li > a:first-child::before {
+	content:">"" ";
+}
+.et_pb_widget ul li ul li > a:first-child::before, .et_pb_widget ul li ul li > a:first-child::before {
+	content:">"" ";
+}
+.et_pb_widget ul li ul li {
+	width: 208px;
+	margin-left: 0px;
+}
+.et_pb_widget ul li ul li ul li {
+	width: 198px;
+	margin-left: 0px;
+}
+.et_pb_widget ul li ul li:last-child {
+	border-bottom: solid 0px #CECECE;
+	width: 198px;
+	margin-left: 0px;
+ 	margin-bottom: -6px;
+}
+.et_pb_widget ul li ul li ul li:last-child {
+	border-bottom: solid 0px #CECECE;
+	width: 198px;
+	margin-left: 0px;
+ 	margin-bottom: -6px;
+}
+/*::::::hide the sibebar vertical line */
+.et_pb_widget_area_left, .et_pb_widget_area_right {
+	border-color: transparent;
+}
+}
+
+@media screen and (max-width: 980px) {
+.breadcrumbs{
+   display: none;
+}
+.breadcrumbs_pages{ display:none; }
+.breadcrumbs_post{ display:none; }
+}
+/* :::::::::::::::: Subscription form :::::::::::::::: */
+.newsletter_vitatech {
+  margin-top: 120px;
+  padding-left: 25%;
+  height: 110px;
+  background-color: #e0e2e1;
+}
+.newsletter_vitatech textarea {
+  padding-left: 2%;
+  font-family: inherit;
+  font-size: inherit;
+}
+.newsletter_vitatech input.newsletter_vitatech_input {
+  background: #FFF;
+  width: 70%;
+  display: inline;
+  border: 1px solid #ccc;
+  height: 36px;
+  float: left;
+}
+.newsletter_vitatech input[type=button].newsletter_vitatech_input, input[type=submit].newsletter_vitatech_input, input[type=reset].newsletter_vitatech_input {
+  width: 14%;
+  border: 1px solid #000;
+  color: white;
+  height: 36px;
+  float: left;
+  cursor: pointer;
+  background: url(http://cenes.pt/wp/wp-content/uploads/2017/10/lens.png);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: center;
+  display: block;
+}
+
+
+/* :::::::::: TITLE FOR POST :::::::::::::::::::: */
+.et_post_meta_wrapper {
+	margin-top: 0px !important;
+}
+@media screen and (max-width: 1440px) {
+.et_pb_text_inner h1,h2 {
+	font-size: 22px;
+}
+}
+@media screen and (max-width: 1360px) {
+.et_pb_text_inner h1,h2 {
+	font-size: 20px;
+}
+}
+@media screen and (max-width: 1200px) {
+.et_pb_text_inner h1,h2 {
+	font-size: 18px;
+}
+}
+/* :::::::::::::::::::::::: TOP BLUE BAR FOR PAGES :::::::::::::::::::::::: */
+/* :::::::::::::::::::::::: TOP BLUE BAR FOR PAGES :::::::::::::::::::::::: */
+.top_blue_bar_for_pages {
+	height: 85px !important;
+}
+.breadcrumbs_container_pages {
+  	font-size: 70%;
+	color: #FFFFFF;
+	text-align: right;
+}
+.breadcrumbs_container_pages a:link {
+	color: #FFFFFF !important;
+}
+.breadcrumbs_container_pages a:hover {
+	color: #CCCCCC !important;
+}
+
+/* :::::::::::::::: FOOTER COLUMNS :::::::::::::::::::::::::: */
+@media screen and (max-width: 980px) {
+#footer-widgets .footer-widget:first-of-type {
+    width: 22%;
+	margin-left: -7%;
+	line-height: 20px;
+}
+#footer-widgets .footer-widget:nth-of-type(2) {
+    width: 48%;
+	margin: auto;
+	margin-left: 3%;
+}
+#footer-widgets .footer-widget:last-of-type {
+    width: 22%;
+	float: left;
+	padding-left: 0;
+	margin-left: -7%;
+	line-height: 20px;
+}
+.ligueseanos {
+	margin-left: -10px;
+  	display: block !important;
+  	float: left !important;
+}
+.imgContainer {
+	padding-top: 8%;
+  	display: block !important;
+  	float: left !important;
+}
+.imgContainer:hover {
+	padding-top: 8%;
+	float: left;
+	opacity: 0.5;
+    /* filter: alpha(opacity=50);  For IE8 and earlier */
+}
+#footer-bottom {
+	border-top: 1px solid #769397;
+}
+#footer-info {
+	width: 100%; margin:0 auto; text-align: center !important;
+}
+.breadcrumbs_container {
+	display: none;
+}
+.breadcrumbs {
+	display: none;
+}
+.breadcrumbs a:link {
+	display: none;
+}
+.breadcrumbs a:hover {
+	display: none;
+}
+}
+
+@media screen and (min-width: 980px) {
+#footer-widgets .footer-widget:first-of-type {
+    width: 22%;
+	margin-left: -7%;
+	line-height: 24px;
+}
+#footer-widgets .footer-widget:nth-of-type(2) {
+  	width: 48%;
+	margin: auto;
+	margin-left: 3%;
+}
+#footer-widgets .footer-widget:last-of-type {
+  	width: 22%;
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 15px;
+}
+.ligueseanos {
+	margin:auto;
+}
+.imgContainer {
+	padding-top: 8%;
+	display: block !important;
+	float: left;
+}
+.imgContainer:hover {
+	padding-top: 8%;
+	float: left;
+	opacity: 0.5;
+     /* filter: alpha(opacity=50); For IE8 and earlier */
+}
+#footer-bottom {
+	border-top: 1px solid #06b4e6;
+}
+#footer-info {
+	width: 100%; padding-right: 4%; text-align: center !important;
+}
+}
+/*
+Footer Newsletter
+*/
+@media screen and (max-width: 980px) {
+.footer_newsletter_title {
+display: block !important;
+float: left;
+}
+.footer_newsletter_title_input input[type=text], .footer_newsletter_title_input input[type=email] {
+color: #333;
+padding: 7px !important;
+width: 300px !important;
+display: block !important;
+float: left !important;
+background: #FFF;
+}
+.footer_newsletter_title_input input[type=email]::placeholder {
+color: #a6a8ab !important;
+}
+.footer_newsletter_title_input input[type="submit"] {
+background: #06b4e6;
+color: white;
+width: 300px !important;
+height: 40px !important;
+line-height: normal !important;
+padding: 6px !important;
+border: none;
+box-shadow: none;
+text-shadow: none;
+display: block !important;
+float: left !important;
+}
+.footer_newsletter_title_input input[type="submit"]:hover {
+background: #06b4e6;
+cursor: pointer;
+}
+}
+
+@media screen and (min-width: 981px) {
+.footer_newsletter_title p {
+margin-top: 1.4em;
+/* margin-bottom: 1.8em; */
+color: white;
+display: block;
+float: left;
+}
+.footer_newsletter_title_input input[type=text], .footer_newsletter_title_input input[type=email] {
+color: #333;
+padding: 7px !important;
+width: 130% !important;
+height: 40px !important;
+border: 0;
+background: #FFF;
+}
+.footer_newsletter_title_input input[type=email]::placeholder {
+color: #a6a8ab !important;
+}
+#subscribe-submit  {
+margin-top: -20px;
+}
+.footer_newsletter_title_input input[type="submit"] {
+background: #06b4e6;
+color: white;
+width: 130% !important;
+height: 40px !important;
+line-height: normal !important;
+padding: 6px !important;
+border: none;
+box-shadow: none;
+text-shadow: none;
+}
+.footer_newsletter_title_input input[type="submit"]:hover {
+background: #06b4e6;
+cursor: pointer;
+}
+}
+
+/* :::::::::::::::::: SELECTED MENU ITEMS :::::::::::::::::::::::::::::: */
+.menu-menu_energia_pt-container .current-menu-item {
+background-color: #ecebeb;
+}
+.menu-menu_energia_en-container .current-menu-item {
+background-color: #ecebeb;
+}
+.menu-menu_telecom_pt-container .current-menu-item {
+background-color: #ecebeb;
+}
+.menu-menu_telecom_en-container .current-menu-item {
+background-color: #ecebeb;
+}
+
+/* :::::::::::::DEFINE MAX-WIDTH 1440 FOR VERY LARGE RESOLUTIONS:::::::::::::*/
+@media screen and (min-width: 1440px) {
+#main-header-container {
+	margin: auto !important;
+	max-width: 1440px;
+	width: 1440px;
+}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea
+{
+background-color: #eeeeee;
+width: 100%;
+color: #000;
+height: 3em;
+border-radius:2px;
+}
+
+.wpcf7-submit {
+background:#FFF;
+border-style: solid;
+border-color:#6ca320;
+cursor:pointer;
+padding:15px;
+color:#6ca320;
+border-radius:3px;
+float:right;
+}
+textarea {
+height: 8em;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+background-color: #2d84da;
+color: white;
+padding: 10px 10px;
+text-decoration: none;
+margin: 0px 2px;
+cursor: pointer;
+border: 2px solid #2d84da;
+border-radius: 4px;
+font-size:16px;
+}
